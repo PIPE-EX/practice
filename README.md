@@ -61,3 +61,6 @@ python -m uvicorn main:app --reload
 POST /users/ → Crear usuario (nombre, email)
 GET /users/ → Listar todos los usuarios
 GET /users/{id} → Obtener usuario por
+
+## 📂 Restaurar base de datos - PostgreSQL
+  usar el archivo "dbtest.backup" y restaurar en Pgadmin4
